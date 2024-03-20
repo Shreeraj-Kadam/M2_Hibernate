@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Shreeraj Kadam\my-eclipse-workspace\Delhi Branch\M2 Batch\Hibernate\hibernate_many_to_many_uni"/>
+			<item value="C:\Users\Shreeraj Kadam\my-eclipse-workspace\Delhi Branch\M2 Batch\Hibernate\hibernate_one_to_many_bi\src\main\java\merge\Merge.java"/>
+			<item value="C:\Users\Shreeraj Kadam\my-eclipse-workspace\Delhi Branch\M2 Batch\Hibernate\demo\src\main\java\remove\Remove1.java"/>
+			<item value="C:\Users\Shreeraj Kadam\my-eclipse-workspace\Delhi Branch\M2 Batch\Hibernate\demo"/>
+			<item value="C:\Users\Shreeraj Kadam\my-eclipse-workspace\Delhi Branch\M2 Batch\Hibernate\hibernate_one_to_one_uni"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="edu.qs"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="hibernate_cache"/>
+			<item value="hibernate_autoincrement_primarykey"/>
+			<item value="hibernate_column_attribute"/>
+			<item value="hibernate_annotations"/>
+			<item value="demo"/>
+			<item value="hibernate_many_to_many_bi"/>
+			<item value="hibernate_one_to_many_bi"/>
+			<item value="demo1"/>
+			<item value="hibernate_one_to_one_bi"/>
+			<item value="hibernate_many_to_many_uni"/>
+			<item value="hibernate_many_to_one_uni"/>
+			<item value="hibernate_one_to_many_uni"/>
+			<item value="hibernate_one_to_one_uni"/>
+			<item value="hibernate_demo"/>
+			<item value="hibernte_demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

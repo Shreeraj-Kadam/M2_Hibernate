@@ -1,0 +1,23 @@
+package entity_class;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Employee {
+	@Id
+	int id;
+	
+	@Column(nullable = false)
+	String name;
+	
+	@Column(updatable = false)
+	int age;
+	
+	@Column(insertable = false)
+	String company_name;
+	
+	@Column(unique = true)
+	long phone;
+}

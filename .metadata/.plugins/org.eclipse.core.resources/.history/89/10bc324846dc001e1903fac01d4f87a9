@@ -1,0 +1,19 @@
+package fetch;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import entity_class.Employee;
+
+public class Fetch {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("cache");
+		EntityManager em1 = emf.createEntityManager();
+		EntityManager em2 = emf.createEntityManager();
+		EntityTransaction et = em.getTransaction();
+		
+		Employee e1 = 
+	}
+}

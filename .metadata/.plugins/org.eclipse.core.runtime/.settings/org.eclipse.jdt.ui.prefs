@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="hibernate_demo.Employee"><rhs name\="hibernate_demo.Employee"/></lhs><lhs name\="student_app.StudentApp"><rhs name\="student_app.StudentApp"/></lhs><lhs name\="entity_classes.Student"><rhs name\="entity_classes.Student"/></lhs><lhs name\="entity_classes.Pancard"><rhs name\="entity_classes.Pancard"/></lhs><lhs name\="entity_classes.Person"><rhs name\="entity_classes.Person"/></lhs><lhs name\="entity_classes.Book"><rhs name\="entity_classes.Book"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="entity_classes.Author"><rhs name\="entity_classes.Author"/></lhs><lhs name\="entity_classes.Product"><rhs name\="entity_classes.Product"/></lhs><lhs name\="entity_classes.Review"><rhs name\="entity_classes.Review"/></lhs><lhs name\="entity_classes.Subject"><rhs name\="entity_classes.Subject"/></lhs><lhs name\="entity_classes.Person1"><rhs name\="entity_classes.Person1"/></lhs><lhs name\="entity_classes.Pancard1"><rhs name\="entity_classes.Pancard1"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.FetchType"/><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.persistence.FetchType"/><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="entity_class.Employee"><rhs name\="entity_class.Employee"/></lhs><lhs name\="entity_class.Student"><rhs name\="entity_class.Student"/></lhs><lhs name\="entity_classes.Employee"><rhs name\="entity_classes.Employee"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

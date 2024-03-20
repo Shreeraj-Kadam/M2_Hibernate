@@ -1,0 +1,25 @@
+package insert;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import entity_classes.Student;
+import entity_classes.Subject;
+
+public class Insert {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("many_to_many_bi") ;
+		EntityManager em = emf.createEntityManager();
+		EntityTransaction et = em.getTransaction();
+		
+		Student stud1 = new Student( 1, "Shubham", 18);
+		Student stud2 = new Student( 2, "Prasad", 18);
+		
+		Subject sub1 = new Subject(101, "Physics");
+		Subject sub2 = new Subject(102, "Chemistry");
+		Subject sub3 = new Subject(103, "Math");
+		Subject sub4 = new Subject(104, "Bio");
+	}
+}

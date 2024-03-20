@@ -1,0 +1,43 @@
+package hibernate_demo;
+
+import javax.persistence.EntityManager;
+
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Demo {
+	public static void main(String[] args) {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("demo");
+		EntityManager em = emf.createEntityManager();
+		EntityTransaction et = em.getTransaction();
+		System.out.println(emf);
+		
+//		Employee emp = new Employee(4, "xyz", 100);		
+//		et.begin();
+//		em.persist(emp);
+//		emp.setSalary(200);
+//		et.commit();
+//		emp.setSalary(400);
+//		et.begin();
+//		emp.setSalary(500);
+//		et.commit();
+		
+		Employee emp = em.find(Employee.class, 4);
+		
+		
+		et.begin();
+		em.detach(emp);
+		emp.setSalary(500);
+		em.merge(emp);
+		emp.setSalary(500);
+		em.remove(emp);
+		et.commit();
+		
+//		et.begin();
+//		em.persist(emp);
+//		et.commit();
+		
+	}
+}
